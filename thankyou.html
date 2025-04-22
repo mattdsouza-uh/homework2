@@ -1,0 +1,36 @@
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="hw2.css">
+    <title> Registration Form | Cardinal Medical </title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="row equal-space">
+        <div class="image">
+          <img src="healthcare_logo.png" alt="healthcare_logo" width="140px" id="logo"/>
+        </div>
+        <h1 class="title">Cardinal Medical</h1>
+        <p class="date">Today's Date: <span id = "today"> </span></p>
+      </header>
+
+      <div class="row center-item">
+        <h1 class="title patient-info"> Thank you! </h1>
+      </div>
+
+      <h1 class="title"> Thank you for your submission</h1>
+
+      <footer class="footer">
+        <p>Cardinal Medical</p>
+        <p>Phone number: (112) - 345 7891</p>
+        <a href="https://www.cardinalhealth.com/en.html">https://www.cardinalhealth.com/en.html</a>
+      </footer>
+    </div>
+  </body>
+
+  <script> <!--User gets dynamic date - Used Professor Jake example -->
+    document.getElementById("today").innerHTML = new Date().toLocaleDateString();
+  </script>
+
+</html>
